@@ -1,0 +1,15 @@
+[package]
+name = "hs256-bin"
+version = "0.1.0"
+authors = ["Jacobtread <jacobtread@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+description = "Minimal token implementation that uses byte values"
+homepage = "https://github.com/jacobtread/hs256-bin"
+repository = "https://github.com/jacobtread/hs256-bin"
+keywords = ["api", "token"]
+edition = "2021"
+
+[dependencies]
+ring = "0.16"
+base64ct = { version = "1", features = ["alloc"] }
